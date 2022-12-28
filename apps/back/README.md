@@ -1,5 +1,5 @@
 
-# dopamarket backend
+# Dopamarket Backend
 
 This repository contains the backend code for the dopamarket project. The application is built using the NestJS framework and TypeORM for database management. The database used is MySQL. The goal of this project is to provide a robust and efficient backend for the dopamarket platform.
 
