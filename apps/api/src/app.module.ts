@@ -15,7 +15,7 @@ import { Role } from './roles/roles.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: '127.0.0.1',
       port: 3306,
       username: 'eshoponline_user',
       password: 'password',

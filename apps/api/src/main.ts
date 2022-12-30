@@ -21,7 +21,8 @@ async function initSwagger(app: NestExpressApplication) {
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
+  app.enableCors();
   initSwagger(app);
-  await app.listen(3000);
+  await app.listen(3005);
 }
 bootstrap();
